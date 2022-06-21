@@ -1,7 +1,7 @@
 base_url = "https://blog.cybnon.com" # do NOT include a trailing slash on the base URL for web urls
 #base_url = "/home/jieiku/.dev/abridge/public/" # used for locally usable build directly from disk, also set below extra.uglyurls = true
-title = "Abridge"
-description = "Abridge is a fast and lightweight Zola theme using semantic html, abridge.css class-light CSS, and No JS."
+title = "Cybnon Blog"
+description = "Blog of me posting things that come to my mind. CAUTION could contain Coding, Tutorial, Hardware tests, and unpopular opinions."
 default_language = "en"
 output_dir = "public"
 compile_sass = true
@@ -20,7 +20,6 @@ theme = "abridge"
 [markdown]
 extra_syntaxes_and_themes = ["themes/abridge/highlight_themes"]
 highlight_code = true
-#highlight_theme = "abridge-dark"
 highlight_theme = "css"
 
 # abridge-dark ayu-dark-abridge ayu_mirage-dark-abridge charcoal-dark-abridge dracula-dark-abridge material-dark-abridge
@@ -45,7 +44,7 @@ title_separator = "|"  # Separator between title and title_addition, set as |, -
 title_addition = "Fast & Lightweight Zola Theme" # a default value for title addition
 recent = true # TOC / index
 recent_items = 9
-author = "Jake G" # Put Your Name here
+author = "Cybnon" # Put Your Name here
 
 title_size_index = "s85" # size: s95, s90, s85, s80, s75, s70, false(full size)
 meta_index = { position="bottom", size="s90", author=true, readtime=false, readstring="min", date=true, categories_tags=true, divider=" " }
@@ -180,7 +179,7 @@ katex_bundle = "katexbundle.min.js"
 # meta/seo/analytic tags
 ##########################
 keywords = "Abridge, Abridge.css, Zola, Theme, Zola Theme, getzola, Semantic Html, Fast, lightweight" # used for the primary site index
-twitter = "your-user-name" # used for twitter related
+twitter = "Cybnon" # used for twitter related
 #google = "Your Google Site verification code."
 #bing = "Your Bing Site verification code."
 seo = true  # enable or disable seo-related meta tags: opengraph, facebook, twitter
@@ -188,23 +187,15 @@ seo = true  # enable or disable seo-related meta tags: opengraph, facebook, twit
 # Footer social links; full options listed in macros/social.html
 [extra.social]
 feed = true
-mail = "name@example.com"
-mastodon = "@your-user-name"
-element = "matrix.example.com"
-#matrix = "matrix.example.com"
-buymeacoffee = "your-user-name"
-twitter = "your-user-name"
-facebook = "your-user-name"
-linkedin = "your-user-name"
-gitlab = "your-user-name"
-github = "your-user-name"
-github_sponsor = "your-user-name"
-bitbucket = "your-user-name"
-python = "your-user-name"
-docker = "your-user-name"
-stack = "your-user-name"
-instagram = "your-user-name"
-pinterest = "your-user-name"
-twitch = "your-user-name"
-youtube = "your-channel-id"
-researchgate = "your-profile-id"
+mail = "info@cybnon.com"
+# mastodon = "@your-user-name"
+buymeacoffee = "cybnon"
+twitter = "cybnon"
+github = "Cybnon"
+github_sponsor = "Cybnon"
+# docker = "your-user-name"
+# instagram = "your-user-name"
+# twitch = "your-user-name"
+# youtube = "your-channel-id"
+# linkedin = "your-user-name"
+# gitlab = "your-user-name"
