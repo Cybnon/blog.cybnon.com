@@ -40,7 +40,7 @@ language_code = "en-US"
 title_separator = "|"  # Separator between title and title_addition, set as |, -, _, etc
 # To disable title_addition but keep built in page additions eg, Posts page: "Posts | Abridge" set title_addition to an empty string
 # To always set the page title exactly eg "Abridge" then comment out the below line (not recommend, bad for SEO)
-title_addition = "Fast & Lightweight Zola Theme" # a default value for title addition
+title_addition = "Frist Version of Cybnons Blog" # a default value for title addition
 recent = true # TOC / index
 recent_items = 9
 author = "Cybnon" # Put Your Name here
@@ -56,8 +56,8 @@ footer_credit = true
 #footer_credit_override = '<p class="s90">Powered by <a href="https://www.getzola.org/">Zola</a> &#38; <a href="https://github.com/Jieiku/abridge/">Abridge</a></p>'
 #uncomment one of the two lines, or neither, depending on which type of logo you want to use:
 #logo = { file="logo.svg", width="32", height="32", alt="Abridge", text="bridge" }
-#textlogo = '<font color="#f90">A</font>bridge'
-textlogo = 'Cybnons Blog'
+# textlogo = '<font color="#f90">A</font>bridge'
+textlogo = '<font color="#09f">C</font>ybnons <font color="#09f">B</font>log'
 sitedesc = false # enables or disables the display of the site description below the logo.
 #copyright_start_year = 2019  # optional
 #copyright_end_year = 2020  # optional, recommend leaving unset, zola build will set this to current year by default
@@ -99,9 +99,9 @@ js_codecopy = "codecopy.js"# Bundleable
 js_theme = "theme.min.js" # Separate Always, comment out if using -auto/-light/-dark stylesheet. (required for switcher)
 js_themeButton = "theme_button.js"# Bundleable
 js_bundle = "abridge-switcher.min.js"# Bundle JS File, comment out to disable (includes switcher)
-stylesheets = [ "abridge-switcher.css" ] # Orange Automatic Dark/Light Theme based on browser/system preference with switcher
-#stylesheets = [ "abridge-blue-switcher.css" ] # Blue Automatic Night/Light Theme based on browser/system preference with switcher
-#stylesheets = [ "abridge-blueshade-switcher.css" ] # BlueShade Automatic Night/Light Theme based on browser/system preference with switcher
+# stylesheets = [ "abridge-switcher.css" ] # Orange Automatic Dark/Light Theme based on browser/system preference with switcher
+stylesheets = [ "abridge-blue-switcher.css" ] # Blue Automatic Night/Light Theme based on browser/system preference with switcher
+# stylesheets = [ "abridge-blueshade-switcher.css" ] # BlueShade Automatic Night/Light Theme based on browser/system preference with switcher
 
 ########## No Switcher ##########
 #js_bundle = "search.min.js"# Bundle JS File, comment out to disable (search only: no switcher/prestyle)
@@ -127,16 +127,14 @@ stylesheets = [ "abridge-switcher.css" ] # Orange Automatic Dark/Light Theme bas
 # theme:        uglifyjs theme.js -o theme.min.js -c -m
 # katex_bundle: uglifyjs katex.min.js mathtex-script-type.min.js auto-render.min.js katexoptions.js -o katexbundle.min.js -c -m
 
-banner = "banner.png" # Used as default image for OpenGraph/Twitter if page specific image is undefined.
+# banner = "logo.png" # Used as default image for OpenGraph/Twitter if page specific image is undefined.
 # favicons, comment out a line to disable loading some or all of these.
 favicon_theme_color = "#333333"
 favicon_ms_color = "#333333"
 favicon_webmanifest = "site.webmanifest" # Used for android-chrome-512x512.png and android-chrome-192x192.png
-favicon_mask = "safari-pinned-tab.svg" # safari-pinned-tab.svg
 favicon_mask_color = "#ff9900"
-favicon180 = "apple-touch-icon.png" # apple-touch-icon.png
-favicon32 = "favicon-32x32.png" # favicon-32x32.png
-favicon16 = "favicon-16x16.png" # favicon-16x16.png
+favicon32 = "favicon.png" # favicon-32x32.png
+favicon16 = "favicon.png" # favicon-16x16.png
 
 # Uncomment below line to load fontawesome, eg: <i class="fa-solid fa-heart"></i>
 #fontawesome = "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"
