@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://blog.cybnon.com/sitemap.xml

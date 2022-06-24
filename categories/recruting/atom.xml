@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Cybnon Blog - Recruting</title>
+	<subtitle>Blog of me posting things that come to my mind. CAUTION could contain Coding, Tutorial, Hardware tests, and unpopular opinions.</subtitle>
+	<link href="https://blog.cybnon.com/categories/recruting/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://blog.cybnon.com"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-06-24T00:00:00+00:00</updated>
+	<id>https://blog.cybnon.com/categories/recruting/atom.xml</id>
+	<entry xml:lang="en">
+		<title>The good the bad and the Headhunter</title>
+		<published>2022-06-24T00:00:00+00:00</published>
+		<updated>2022-06-24T00:00:00+00:00</updated>
+		<link href="https://blog.cybnon.com/a-new-job/" type="text/html"/>
+		<id>https://blog.cybnon.com/a-new-job/</id>
+		<content type="html">&lt;p&gt;Captain Placeholder&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>
